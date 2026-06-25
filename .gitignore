@@ -1,0 +1,86 @@
+# ===========================================
+# Python 项目通用 .gitignore
+# ===========================================
+
+# --- 字节码与缓存 ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# --- 虚拟环境 ---
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# --- IDE 与编辑器 ---
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.ipynb
+
+# --- 操作系统 ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# --- Python 环境 ---
+*.log
+*.pot
+*.pyc
+.python-version
+pip-delete-this-directory.txt
+
+# --- 测试与覆盖率 ---
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# --- mypy ---
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# --- 项目特定 ---
+# 图片输出
+*.png
+*.jpg
+*.jpeg
+*.gif
+# 临时文件
+temp/
+tmp/
+*.tmp
+# 数据文件（模拟数据除外，如有真实数据请放此处）
+data/
